@@ -9,7 +9,7 @@ Host your own helm charts using chartmuseum.
 # Usage
 
 ```
-cp env.example .env
+cp .env.example .env
 ```
 Adjust the values to your liking
 
