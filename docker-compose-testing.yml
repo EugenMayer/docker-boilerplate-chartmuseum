@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  chartmuseum:
+    labels:
+      traefik.http.routers.chartmuseum.tls: 'false'
