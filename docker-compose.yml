@@ -13,5 +13,6 @@ services:
       traefik.http.routers.chartmuseum.tls: 'false'
       traefik.http.routers.chartmuseum.tls.certresolver: 'default'
       traefik.enable: 'true'
+      traefik.port: 8080
 volumes:
   charts:
